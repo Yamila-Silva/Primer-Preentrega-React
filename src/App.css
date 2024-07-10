@@ -1,0 +1,40 @@
+.navbar {
+  background-color: #007bff; /* Color azul principal */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para la navbar */
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.nav-item .nav-link {
+  font-size: 1.1rem;
+  margin-right: 1rem;
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+.nav-item .nav-link:hover {
+  color: #b3d7ff; /* Color celeste claro al pasar el mouse */
+}
+
+/* Estilo para el widget del carrito */
+.cart-widget {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+  color: #ffffff;
+}
+
+.cart-widget img {
+  width: 30px;
+  height: 30px;
+}
+
+.cart-widget span {
+  margin-left: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
