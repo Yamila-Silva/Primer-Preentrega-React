@@ -1,40 +1,29 @@
-.navbar {
-  background-color: #007bff; /* Color azul principal */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para la navbar */
+.App {
+  text-align: center;
 }
 
-.navbar-brand {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #ffffff;
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
 
-.nav-item .nav-link {
-  font-size: 1.1rem;
-  margin-right: 1rem;
-  color: #ffffff;
-  transition: color 0.3s ease;
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+  }
 }
 
-.nav-item .nav-link:hover {
-  color: #b3d7ff; /* Color celeste claro al pasar el mouse */
+@keyframes App-logo-spin {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
 }
 
-/* Estilo para el widget del carrito */
-.cart-widget {
-  display: flex;
-  align-items: center;
-  margin-right: 1rem;
-  color: #ffffff;
-}
 
-.cart-widget img {
-  width: 30px;
-  height: 30px;
-}
 
-.cart-widget span {
-  margin-left: 0.5rem;
-  font-size: 1.1rem;
-  font-weight: bold;
+.App-link {
+  color: #61dafb;
 }

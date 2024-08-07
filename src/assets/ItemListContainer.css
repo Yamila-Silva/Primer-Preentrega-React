@@ -1,0 +1,6 @@
+.greeting-title {
+    font-size: 2.5rem; /* Ajusta el tamaño de la fuente según sea necesario */
+    color: #343a40; /* Cambia el color según sea necesario */
+    font-weight: bold; /* Establece el peso de la fuente */
+    margin-top: 20px; /* Ajusta el margen superior */
+}

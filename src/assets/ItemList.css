@@ -1,0 +1,58 @@
+/* src/components/ItemList.css */
+
+/* Contenedor general para los elementos de la lista */
+.item-list {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los items se ajusten a múltiples líneas si es necesario */
+    gap: 20px; /* Espacio entre los elementos */
+    justify-content: center; /* Centra los elementos horizontalmente */
+}
+
+/* Estilo para el contenedor del item */
+.item-card {
+    border: 1px solid #ddd; /* Borde gris claro alrededor del item */
+    border-radius: 8px; /* Bordes redondeados */
+    overflow: hidden; /* Asegura que el contenido no sobresalga del borde */
+    width: 200px; /* Ancho fijo para los items */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil para efecto de profundidad */
+    transition: transform 0.2s ease; /* Transición suave para efectos de hover */
+    background-color: #fff; /* Fondo blanco para los items */
+    text-align: center; /* Centra el texto y otros elementos dentro del contenedor */
+}
+
+/* Estilo para el contenedor de la imagen dentro de cada item */
+.item-card img {
+    width: 50%; /* Imagen ocupa todo el ancho del contenedor */
+     /* height: auto; Altura ajustada automáticamente para mantener la proporción */
+    object-fit: cover; /* Opcional: recorta la imagen para que se ajuste al contenedor sin distorsionarse */
+}
+
+/* Estilo para el contenido textual dentro del item */
+.item-card-content {
+    padding: 10px; /* Espacio interior */
+}
+
+/* Estilo para el nombre del producto */
+.item-card-title {
+    font-size: 18px; /* Tamaño de fuente del nombre */
+    margin-bottom: 10px; /* Espacio debajo del nombre */
+}
+
+/* Estilo para el botón de ver detalles */
+.item-card-button {
+    display: block;
+    margin: 10px auto; /* Centro del botón horizontalmente */
+    padding: 8px 16px; /* Espaciado interior */
+    font-size: 16px; /* Tamaño de fuente del botón */
+    color: #fff; /* Color del texto */
+    background-color: #007bff; /* Color de fondo del botón */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    text-decoration: none; /* Sin subrayado en el texto del botón */
+}
+
+.item-card-button:hover {
+    background-color: #0056b3; /* Color de fondo más oscuro al pasar el ratón */
+    transform: scale(1.05); /* Aumenta el tamaño del botón ligeramente al pasar el ratón */
+}

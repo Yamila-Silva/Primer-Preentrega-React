@@ -1,0 +1,17 @@
+.cart-icon {
+    width: 30px;  /* Ajusta el tamaño según sea necesario */
+    height: auto;
+}
+
+.cart-widget {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.cart-widget .badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+}
