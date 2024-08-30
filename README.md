@@ -1,4 +1,4 @@
-# Proyecto final - BINAH Deco.
+# Proyecto final - Mr. calcetin
 
 Desarrollo de una Plataforma de E-Commerce Integrada con Firebase. Es un proyecto que se basa en E-commerce de venta de productos de bazar, hoy en dia es una marca de decoracion del hogar.
 
