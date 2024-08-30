@@ -1,23 +1,35 @@
+import './App.css';
+import Contacto from './components/Contacto/Contacto.jsx'
+import ItemListContainer from "./components/ItemListContainer/ItemListContainer.jsx"
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Layout from './components/Layout/Layout.jsx';
+import Error404 from './components/Error404/Error404.jsx';
+import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer.jsx';
+import CartContextProvider from './Context/CartContext.jsx';
+import Cart from "./components/Cart/Cart.jsx"
 
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import NavBar from './components/NavBar';
-import ItemListContainer from './components/ItemListContainer';
-import ItemDetailContainer from './components/ItemDetailContainer';
-import NotFound from './components/NotFound';
 
-const App = () => {
-    return (
-        <Router>
-            <NavBar />
-            <Routes>
-                <Route path="/" element={<ItemListContainer />} />
-                <Route path="/category/:categoryId" element={<ItemListContainer />} />
-                <Route path="/item/:itemId" element={<ItemDetailContainer />} />
-                <Route path="*" element={<NotFound />} />
-            </Routes>
-        </Router>
-    );
-};
+function App() {
+
+  return (
+    <CartContextProvider> 
+      <BrowserRouter>
+          <div className="navbar-imagen">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ_PTnEJ8loBSiDKpgs971ejNuWBCqAwwiiA&s" alt="" />
+          </div>
+        <Layout>
+          <Routes>
+            <Route path="/" element={<ItemListContainer/>}/>
+            <Route path="/Categorias/:categoriasDeId" element={<ItemListContainer />}/>
+            <Route path="/Producto/:id" element={<ItemDetailContainer />}/>
+            <Route path="/Contacto" element={<Contacto />}/>
+            <Route path="/cart" element={<Cart />}/>
+            <Route path="*" element={<Error404 />}/>
+          </Routes>
+        </Layout>
+      </BrowserRouter>
+    </CartContextProvider>
+  )
+}
 
 export default App;
-

@@ -1,0 +1,11 @@
+
+.card-itemList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card-itemList{
+    color: blue;
+}
+

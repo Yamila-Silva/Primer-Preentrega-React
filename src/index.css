@@ -1,0 +1,6 @@
+/*Aqui se pueden declarar que son cosas generales.*/
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

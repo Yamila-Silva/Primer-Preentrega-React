@@ -1,0 +1,28 @@
+.botonMasYMenos{
+    display: flex;
+    justify-content: center;
+}
+
+#botonMenos{
+    margin-right: 5px;
+    height: auto;
+    width: auto;
+}
+
+#cantidad{
+    margin: 5px;
+    font-size: 18px;
+}
+
+#botonMas{
+    margin-left: 5px;
+    height: 38px;
+    width: 33px;
+}
+
+#botonVerElCarrito, #botonAgregador{
+    display: flex;
+    justify-content: center;
+    margin: 7px;
+}
+
