@@ -1,6 +1,22 @@
-/*Aqui se pueden declarar que son cosas generales.*/
 * { 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+main{
+    background-color: rgb(229, 229, 229);
+}
+
+.footer{
+  font-size:larger;
+  text-align: center;
+  font-weight: bold;
+  padding: 0.5%;
+
+}
+
+.social-icons img{
+   width: 45px;
+   margin:0.5% ;
 }

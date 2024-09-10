@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { db } from ".../firebase/collection";
+import { db } from "../../Firebase/dbConnection";
 import { collection, addDoc } from "firebase/firestore";
 import { useCartContext } from "../../Context/CartContext";
 import Form from 'react-bootstrap/Form';
@@ -7,7 +7,6 @@ import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Swal from "sweetalert2"
-
 import './Contacto.css'
 
 const Contacto = () => {
@@ -104,5 +103,4 @@ const Contacto = () => {
         </div>
     );
 }
-
 export default Contacto;

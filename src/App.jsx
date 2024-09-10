@@ -15,7 +15,7 @@ function App() {
     <CartContextProvider> 
       <BrowserRouter>
           <div className="navbar-imagen">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ_PTnEJ8loBSiDKpgs971ejNuWBCqAwwiiA&s" alt="" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrR1U-BXhLmAdpx0zbxUMtf-Hx1606KMn69w&s" alt="" />
           </div>
         <Layout>
           <Routes>

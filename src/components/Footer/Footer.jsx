@@ -1,5 +1,5 @@
 import {productosArrays} from "../Mock/SimulatorData.js"
-import { db } from "../Firebase/dbConnection.js"
+import { db } from "../../Firebase/dbConnection"
 import { collection, addDoc } from "firebase/firestore"
 
 const Footer = () => {
@@ -19,10 +19,9 @@ const Footer = () => {
     }
     return(
         <>
-            {/*<footer>
-                <button onClick={addProductos}>agregar productos en la Base de datos</button>
-            </footer> */}
-
+           {/* {<footer>
+               <button onClick={addProductos}>agregar productos en la Base de datos</button>
+            </footer> } */}
         </>
     )
 }

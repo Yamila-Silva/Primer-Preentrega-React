@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { useEffect, useState } from "react"
 import ItemList from "../ItemList/ItemList.jsx"
-import { db } from "../Firebase/dbConnection.js"
+import { db } from "../../Firebase/dbConnection.js"
 import { collection, getDocs, query, where } from "firebase/firestore"
 import { useParams } from "react-router-dom"  
 import { LoadingSpinner } from "../Loading/LoadingSpinner.jsx"

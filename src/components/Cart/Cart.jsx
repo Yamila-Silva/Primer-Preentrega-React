@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { useCartContext } from "../../Context/CartContext";
 import Table from 'react-bootstrap/Table';
-import { collection, addDoc } from "firebase/firestore";
-import { db } from "../Firebase/dbConnection";
+import { collection, addDoc } from "firebase/firestore"; 
+import { db } from "../../Firebase/dbConnection"
 import "../Cart/cart.css";
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
