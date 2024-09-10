@@ -12,6 +12,7 @@
   "dependencies": {
     "@fontsource/inter": "^5.0.20",
     "bootstrap": "^5.3.3",
+    "dotenv": "^16.4.5",
     "firebase": "^10.13.1",
     "proyecto-react": "file:",
     "react": "^18.3.1",
